@@ -58,7 +58,7 @@
    `(font-lock-constant-face ((t (:foreground, base09))))
    `(font-lock-function-name-face ((t (:foreground, base0D))))
    `(font-lock-keyword-face ((t (:foreground, base08))))
-   `(font-lock-string-face ((t (:background, base02 :foreground, base0B))))
+   `(font-lock-string-face ((t (:foreground, base0B))))
    `(font-lock-type-face ((t (:foreground, base0A))))
    `(font-lock-variable-name-face ((t (:foreground, base0E))))
    `(font-lock-warning-face ((t (:foreground, base08))))

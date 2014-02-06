@@ -1,48 +1,34 @@
 ;; Base16 Eighties (https://github.com/chriskempson/base16)
 ;; Scheme: Chris Kempson (http://chriskempson.com)
 ;; slightly modified by halvor gb
-;;; base16-halvorgb-theme.el
+;;; base16-halvorgb-railscasts-theme.el
 
 ;;; Code:
 
-(deftheme base16-halvorgb "base16-eighties, edited by halvor gb")
+(deftheme base16-halvorgb-railscasts "base16-railscasts, edited by halvor gb")
 
-(let ((background "#181a1e")
-      (current-line "#282a2e")
-      (selection "#100010")
-      (foreground "#f4f1ed")
-      (comment "#908f83")
-      (cursor "#f4f1ed")
-      (red "#da4939")
-      (orange "#cc7833")
-      (yellow "#ffc66d")
-      (green "#a5c261")
-      (aqua "#519f50")
-      (blue "#6d9cbe")
-      (purple "#b6b3eb")
+(let (; palette
 
-      ; palette
-      (base00 "#1d1d1d")
-      (base01 "#393939")
-      (base02 "#515151")
-      (base03 "#747369")
-      (base04 "#a09f93")
-      (base05 "#d3d0c8")
-      (base06 "#e8e6df")
-      (base07 "#f2f0ec")
-      (base08 "#f2777a")
-      (base09 "#f99157")
-      (base0A "#ffcc66")
-      (base0B "#99cc99")
-      (base0C "#66cccc")
-      (base0D "#6699cc")
-      (base0E "#cc99cc")
-      (base0F "#d27b53")
-
+      (base00 "#2b2b2b")
+      (base01 "#272935")
+      (base02 "#3a4055")
+      (base03 "#5a647e")
+      (base04 "#d4cfc9")
+      (base05 "#e6e1dc")
+      (base06 "#f4f1ed")
+      (base07 "#f9f7f3")
+      (base08 "#da4939")
+      (base09 "#cc7833")
+      (base0A "#ffc66d")
+      (base0B "#a5c261")
+      (base0C "#519f50")
+      (base0D "#6d9cbe")
+      (base0E "#b6b3eb")
+      (base0F "#bc9458")g
       )
 
   (custom-theme-set-faces
-   'base16-halvorgb
+   'base16-halvorgb-railscasts
 
    ;; Built-in stuff (Emacs 23)
    `(default ((t (:background, base00 :foreground, base07))))
@@ -100,7 +86,7 @@
    ;; `(rainbow-delimiters-depth-9-face ((t (:foreground ,foreground)))))
    )
   (custom-theme-set-variables
-   'base16-halvorgb
+   'base16-halvorgb-railscasts
 
    `(ansi-color-names-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
@@ -109,6 +95,6 @@
      ;; black, red, green, yellow, blue, magenta, cyan, white
      [unspecified, base00, base08, base0B, base0A, base0D, base0E, base0C, base07])))
 
-(provide-theme 'base16-halvorgb)
+(provide-theme 'base16-halvorgb-railscasts)
 
-;;; base16-halvorgb-theme.el ends here
+;;; base16-halvorgb-railscasts-theme.el ends here

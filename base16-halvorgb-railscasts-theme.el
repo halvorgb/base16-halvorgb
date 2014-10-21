@@ -24,7 +24,7 @@
       (base0C "#519f50")
       (base0D "#6d9cbe")
       (base0E "#b6b3eb")
-      (base0F "#bc9458")g
+      (base0F "#bc9458")
       )
 
   (custom-theme-set-faces
@@ -35,7 +35,7 @@
    `(fringe ((t (:background, base00))))
    `(minibuffer-prompt ((t (:foreground, base0D))))
    `(mode-line ((t (:background, base00 :foreground, base07))))
-   `(region ((t (:background, base01)))) ;; selection
+   `(region ((t (:background, base02)))) ;; selection
    `(cursor ((t (:background, base07))))
 
    ;; Font-lock stuff

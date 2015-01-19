@@ -34,7 +34,7 @@
    `(default ((t (:background, base00 :foreground, base07))))
    `(fringe ((t (:background, base00))))
    `(minibuffer-prompt ((t (:foreground, base0D))))
-   `(mode-line ((t (:background, base00 :foreground, base07))))
+   `(mode-line ((t (:background, base02 :foreground, base07))))
    `(region ((t (:background, base02)))) ;; selection
    `(cursor ((t (:background, base07))))
 
